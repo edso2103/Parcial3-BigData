@@ -31,7 +31,7 @@
 # Resultados
 * Primer punto:
  
-![imagen](https://github.com/edso2103/Parcial3-BigData/assets/65740725/c85736f6-970d-4c40-8e24-ad4f72dbd5d9)
+![imagen](https://github.com/edso2103/Parcial3-BigData/assets/65740725/0b209d2e-8a8f-471c-b220-fc6631406b26)
 
 * Segundo punto:
   
