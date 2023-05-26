@@ -14,7 +14,7 @@
 </p>
 
 # Objetivo
- Implementar un sistema de procesamiento y monitoreo de datos financieros utilizando tecnologías como PySpark, AWS Glue, AWS Kinesis y QuickSight. Implementar un sistema de procesamiento y monitoreo de datos financieros utilizando tecnologías como PySpark, AWS Glue, AWS Kinesis y QuickSight.
+ Implementar un sistema de procesamiento y monitoreo de datos financieros utilizando tecnologías como PySpark, AWS Glue, AWS Kinesis y QuickSight. 
 # Procedimiento
 1.  Dibujar franjas de Bollinger con una ventana de 20 horas en Quick Sight para el proyecto del precio del dólar (posiblemente se necesite una consulta en athena).
 
