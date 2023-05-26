@@ -50,6 +50,16 @@ Y los resultados obtenidos, se encuentran en la primera carpeta, donde además, 
 
 Para realizar este ejercicio se usó EMR y se importó PySpark para su correcta tokenización, el notebook se encuentra en la capeta segundoPunto.
 
+* Tercer punto:
+
+En este ejercicio se crean 2 productores y dos consumidores para generar una alerta cuando el dolar este por encima o por debajo de las franjas de bollinger.
+
+
+![Captura desde 2023-05-25 22-18-49](https://github.com/edso2103/Parcial3-BigData/assets/65740725/9ccfd415-936a-4d6d-8691-798272333b7c)
+
+![Captura desde 2023-05-25 22-19-32](https://github.com/edso2103/Parcial3-BigData/assets/65740725/a8e4e5cd-1163-4fba-8161-7c66fae0528a)
+
+![Captura desde 2023-05-25 22-19-52](https://github.com/edso2103/Parcial3-BigData/assets/65740725/39c2c141-bbdd-4cc6-a411-add3216dda76)
 
 
 
