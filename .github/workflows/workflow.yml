@@ -45,6 +45,7 @@ jobs:
           
       - name: Pytest
         run: |
+          pip install pytest
           pytest tercerPunto/productor1.py
           pytest tercerPunto/consumidorInferior.py
           pytest tercerPunto/productor2.py
