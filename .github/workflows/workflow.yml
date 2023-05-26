@@ -44,7 +44,12 @@ jobs:
           aws-region: us-east-1 
           
       - name: Pytest
-        run: pytest
+        run: |
+          pytest tercerPunto/productor1.py
+          pytest tercerPunto/consumidorInferior.py
+          pytest tercerPunto/productor2.py
+          pytest tercerPunto/consumidorSuperior.py
+          pytest tercerPunto/test_consumidor.py
       
       - name: flake8
         run: |
@@ -53,3 +58,4 @@ jobs:
           flake8 tercerPunto/consumidorInferior.py
           flake8 tercerPunto/productor2.py
           flake8 tercerPunto/consumidorSuperior.py
+          flake8 tercerPunto/test_consumidor.py
