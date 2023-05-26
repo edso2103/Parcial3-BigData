@@ -46,11 +46,7 @@ jobs:
       - name: Pytest
         run: | 
           source env/bin/activate
-          pytest tercerPunto/productor1.py
-          pytest tercerPunto/consumidorInferior.py
-          pytest tercerPunto/productor2.py
-          pytest tercerPunto/consumidorSuperior.py
-          pytest tercerPunto/test_consumidor.py
+          pytest
       
       - name: flake8
         run: |
