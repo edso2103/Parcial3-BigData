@@ -29,8 +29,22 @@
 
 
 # Resultados
-* Primer punto:
- 
+* **Primer punto:**
+
+1. Se crea una vista para agregar una columna con la desviación estándar móvil: 
+
+   *SELECT   date,close,STDDEV_POP(close) OVER (ORDER BY date ROWS BETWEEN 19
+   PRECEDING AND CURRENT ROW) AS moving_std 
+   FROM "AwsDataCatalog"."dolarparcial3"."parcial3_dolar";*
+
+2. Se calcula la media y la desviación estándar mòvil:
+
+   *Media movil: windowAvg(sum(close), [date ASC],19,0)*
+
+   *std inferior: {media movil}-(2*sum({moving_std}))*
+
+   *std superior: {media movil}+(2*sum({moving_std}))*
+
 ![image](https://github.com/edso2103/Parcial3-BigData/assets/65740725/47946118-fc4a-429a-a09e-f51c1c05574b)
 
 Imagen creada en QuickSight
@@ -43,14 +57,14 @@ El codigo realizado anteriormente para obtener la información usada, se puede c
 
 Y los resultados obtenidos, se encuentran en la primera carpeta, donde además, están los resultados obtenidos de un csv generado con solo 20 datos de yahoo finance.
 
-* Segundo punto:
+* **Segundo punto:**
   
  ![Captura desde 2023-05-24 15-05-29](https://github.com/edso2103/Parcial3-BigData/assets/65740725/74d8ff68-ba53-442a-85b4-b48b1c5aa9cd)
  ![Captura desde 2023-05-24 15-06-50](https://github.com/edso2103/Parcial3-BigData/assets/65740725/14371901-7510-4491-a962-29330bd4597d)
 
 Para realizar este ejercicio se usó EMR y se importó PySpark para su correcta tokenización, el notebook se encuentra en la capeta segundoPunto.
 
-* Tercer punto:
+* **Tercer punto:**
 
 En este ejercicio se crean 2 productores y dos consumidores para generar una alerta cuando el dolar este por encima o por debajo de las franjas de bollinger.
 
