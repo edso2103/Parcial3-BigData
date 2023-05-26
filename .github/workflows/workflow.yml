@@ -43,7 +43,8 @@ jobs:
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN}}
           aws-region: us-east-1 
           
-          run: pytest
+      - name: Pytest
+        run: pytest
       
       - name: flake8
         run: |
