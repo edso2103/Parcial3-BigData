@@ -36,10 +36,11 @@ def process_records(records):
             # Limitar el historial a los últimos 20 precios
             precio_historial = precio_historial[-20:]
 
+    return precio
+
 
 def bollingerInf(precio):
     bollinger = None
-
     if isinstance(precio, list) and len(precio) >= 20:
         mediaMovil = sum(precio[-20:]) / len(precio[-20:])
         stdMovil = statistics.stdev(precio[-20:])
