@@ -33,6 +33,12 @@
  
 ![image](https://github.com/edso2103/Parcial3-BigData/assets/65740725/47946118-fc4a-429a-a09e-f51c1c05574b)
 
+Imagen creada en QuickSight
+
+![image](https://github.com/edso2103/Parcial3-BigData/assets/65740725/cb9d4e95-fad0-473f-8ebb-f9552240dd7a)
+
+Imagen creada por : https://www.banrep.gov.co/es/estadisticas/comportamiento-del-mercado-del-dolar-durante-el-dia-informacion-tiempo-real
+
 El codigo realizado anteriormente para obtener la información usada, se puede consultar en: https://github.com/edso2103/SegundaParte_DespliegueContinuo.
 
 Y los resultados obtenidos, se encuentran en la primera carpeta, donde además, están los resultados obtenidos de un csv generado con solo 20 datos de yahoo finance.
