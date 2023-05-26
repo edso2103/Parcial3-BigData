@@ -44,8 +44,8 @@ jobs:
           aws-region: us-east-1 
           
       - name: Pytest
-        run: |
-          pip install pytest
+        run: | 
+          source env/bin/activate
           pytest tercerPunto/productor1.py
           pytest tercerPunto/consumidorInferior.py
           pytest tercerPunto/productor2.py
@@ -54,7 +54,7 @@ jobs:
       
       - name: flake8
         run: |
-          pip install flake8
+          source env/bin/activate
           flake8 tercerPunto/productor1.py
           flake8 tercerPunto/consumidorInferior.py
           flake8 tercerPunto/productor2.py
