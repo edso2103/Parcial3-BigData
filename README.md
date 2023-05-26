@@ -33,13 +33,16 @@
  
 ![image](https://github.com/edso2103/Parcial3-BigData/assets/65740725/47946118-fc4a-429a-a09e-f51c1c05574b)
 
+El codigo realizado anteriormente para obtener la información usada, se puede consultar en: https://github.com/edso2103/SegundaParte_DespliegueContinuo.
+
+Y los resultados obtenidos, se encuentran en la primera carpeta, donde además, están los resultados obtenidos de un csv generado con solo 20 datos de yahoo finance.
 
 * Segundo punto:
   
  ![Captura desde 2023-05-24 15-05-29](https://github.com/edso2103/Parcial3-BigData/assets/65740725/74d8ff68-ba53-442a-85b4-b48b1c5aa9cd)
  ![Captura desde 2023-05-24 15-06-50](https://github.com/edso2103/Parcial3-BigData/assets/65740725/14371901-7510-4491-a962-29330bd4597d)
 
-
+Para realizar este ejercicio se usó EMR y se importó PySpark para su correcta tokenización, el notebook se encuentra en la capeta segundoPunto.
 
 
 
